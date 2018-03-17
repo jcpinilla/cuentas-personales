@@ -1,0 +1,53 @@
+input {
+  margin: 10px 0;
+  border-radius: 2px;
+}
+
+td:hover {
+  cursor:pointer;
+}
+
+body {
+  background-image: url("/bg.png");
+  background-color: rgba(255,255,255,0.65);
+  background-blend-mode: lighten;
+  padding: 10px;
+}
+
+#anadir-persona {
+  margin: 5px;
+}
+
+#btn-doy {
+  margin: 10px;
+}
+
+#cerrar-sesion, #filtrar {
+  margin: 20px 0px;
+}
+
+#valor-persona {
+  font-size: 150%;
+}
+
+#welcome-msg {
+  margin: 70px;
+}
+
+.card {
+  width: 400px;
+  float: none;
+  margin: 0 auto;
+}
+
+/*#aut {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  margin-right: -50%;
+}*/
+
+.card button {
+  margin-top: 10px;
+}
