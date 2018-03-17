@@ -2,8 +2,8 @@ const express = require("express");
 const router = express.Router();
 
 const MongoClient = require("mongodb").MongoClient;
-const url = process.env.MONGOLAB_URI;
-const dbName = "proyecto-2";
+const url = "mongodb://juanpinilla:juanpinilla@ds217349.mlab.com:17349/cuentas-personales";
+const dbName = "cuentas-personales";
 
 // obtiene la informacion del usuario con el login que llega por parametro
 router.get("/:login", (req, res) => {

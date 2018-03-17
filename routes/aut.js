@@ -2,8 +2,8 @@ const express = require("express");
 const router = express.Router();
 
 const MongoClient = require("mongodb").MongoClient;
-const url = process.env.MONGOLAB_URI;
-const dbName = "proyecto-2";
+const url = "mongodb://juanpinilla:juanpinilla@ds217349.mlab.com:17349/cuentas-personales";
+const dbName = "cuentas-personales";
 
 // verifica si un usuario está registrado y la contraseña coindice
 router.post("/login", (req, res) => {
